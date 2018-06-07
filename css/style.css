@@ -1,6 +1,8 @@
-body {font-family: Montserrat; font-size: 13px; padding: 10px 0px 40px 0px; color: #FFF; background-color: #000;}
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
-h1 {font-size: 48px; margin-bottom: 20px;}
+body {font-family: 'Montserrat'; font-size: 13px; padding: 10px 0px 40px 0px; color: #FFF; background-color: #000;}
+
+h1 {font-size: 48px; margin-bottom: 20px; font-family: 'Oswald';}
 .highlighted {color: #ff4785e6; opacity: 1; transition: opacity .25s ease-in-out;}
 .highlighted:hover {opacity: 0.5;}
 a {text-decoration: none; color: #FFF;}
