@@ -1,5 +1,5 @@
 // goes through all the tags and generates
-// an array of the different tags used 
+// an array of the different tags used
 function existingTagsList(data) {
 	var existingTags = []
 	data.forEach(function getTagArray(row) {
@@ -61,7 +61,7 @@ function getTagMatches(data, selectedTag) {
   return matches
 }
 
-// render the section of the page that 
+// render the section of the page that
 // lists the tags
 function drawTags(data) {
   var tag = existingTagsList(data)
